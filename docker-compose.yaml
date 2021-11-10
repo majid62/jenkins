@@ -1,0 +1,16 @@
+
+version: '3'
+services:
+ jenkins:
+   image: jenkins/jenkins
+   container_name: jenkins-mcp
+   environment:
+     - TZ=Europe/Parid
+   volumes:
+     - /root/data_jenkins:/var/jenkins_home
+   ports:
+    - 8080:8080
+    - 50000:50000
+
+
+      ### dossier data_jenkins avec comme chown 1000:1000
