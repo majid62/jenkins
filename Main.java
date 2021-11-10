@@ -8,5 +8,5 @@ public class Main {
         System.out.println("Hello, World!");
     }
 }
-'  >/tmp/ajc/Main.java
-javac /tmp/ajc/Main.java
+//'  >/tmp/ajc/Main.java
+//javac /tmp/ajc/Main.java
