@@ -1,7 +1,7 @@
 
 
-mkdir -p /tmp/ajc/
-rm -rf /tmp/ajc/*
+#mkdir -p /tmp/ajc/
+#rm -rf /tmp/ajc/*
 echo '
 public class Main {
     public static void main(String[] args) {
